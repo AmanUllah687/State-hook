@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
-import ParentComponent from './Components/ParentComponent'
+import FocusInput from './Components/FocusInput';
 
 
 
 function App() {
   return (
     <div className="App">
-    <ParentComponent />
+    <FocusInput />
       </div>
   );
 }
